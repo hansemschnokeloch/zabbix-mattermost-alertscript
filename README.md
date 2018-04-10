@@ -85,6 +85,7 @@ Keeping the messages short is probably a good idea; use something such as the fo
 
 	{TRIGGER.NAME} - {HOSTNAME} ({IPADDRESS})
 
+IMPORTANT: Make sure there is no newline in the message body. As that will break the JSON currently.
 Additionally, you can have multiple different Zabbix users each with "Mattermost" media types that notify unique Mattermost users or channels upon different triggered Zabbix actions.
 
 
